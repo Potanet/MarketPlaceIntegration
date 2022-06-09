@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CA115F57-F1E3-44F5-929F-7E7D5B2754E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N11", "N11", "{B7F884D3-1815-488B-BD77-38C0CD1AAB4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{EDC70655-7261-4DE0-BC0C-A912C42DE7F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.IdentityServer", "IdentityServer\MarketPlaceIntegration.IdentityServer\MarketPlaceIntegration.IdentityServer.csproj", "{7EBF630F-3D9E-468F-A5C7-2E6BE4B17480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6F302E6E-A582-4B79-A578-91B15A35B44B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.Shared", "Shared\MarketPlaceIntegration.Shared\MarketPlaceIntegration.Shared.csproj", "{B0FE0B97-134A-4504-A242-98322C4BE33B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.Services.N11", "Services\N11\MarketPlaceIntegration.Services.N11\MarketPlaceIntegration.Services.N11.csproj", "{B9A3C50A-56DB-4815-B3F0-566BBECB8313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{AEBBE0D0-3075-4B60-97E8-B841C1132F44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.Gateways", "MarketPlaceIntegration.Gateways\MarketPlaceIntegration.Gateways.csproj", "{1B2EF748-A6FB-4C39-B82A-E23F62337211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C70561C6-A3D4-426F-AE80-2E44238FE0D4}"
+	ProjectSection(SolutionItems) = preProject
+		Ports\n11api_dokuman_tr.docx.docx = Ports\n11api_dokuman_tr.docx.docx
+		Ports\Ports.txt = Ports\Ports.txt
+		IdentityServer\MarketPlaceIntegration.IdentityServer\Controllers\UserController.cs = IdentityServer\MarketPlaceIntegration.IdentityServer\Controllers\UserController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hepsiburada", "Hepsiburada", "{3F68C32C-CB5B-480A-AFC3-C0974FB3AD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.Services.Hepsiburada", "Services\Hepsiburada\MarketPlaceIntegration.Services.Hepsiburada\MarketPlaceIntegration.Services.Hepsiburada.csproj", "{DD552BD3-1626-465D-9B58-2430BD7A9500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sil", "Sil", "{42486A02-F940-4ABB-A21E-0067A61C2FAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{088495EE-4C65-47EA-BC7F-BDB1FBC469DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.Services.Products", "Services\Product\Products\MarketPlaceIntegration.Services.Products.csproj", "{6049AD80-070C-4FCC-A98F-E30FD6E01007}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManger", "UserManger", "{F2269EC9-BA05-4A62-A44D-71D988283928}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.Services.UserManger", "MarketPlaceIntegration\Services\UserManger\MarketPlaceIntegration.Services.UserManger\MarketPlaceIntegration.Services.UserManger.csproj", "{06310690-54F8-4377-B4ED-1E107A52DCB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Categories", "Categories", "{6BD7E7D7-5A2B-486D-8639-C273C14FFF2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceIntegration.Services.Category", "..\MarketPlaceIntegration.Services.Categories\Category\MarketPlaceIntegration.Services.Category.csproj", "{413023C7-EDDC-489F-9CB8-CB674394BED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{40578AF8-D0EA-4967-8E17-38CBC8341C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.Service.Order", "Service\Order\MarketPlace.Service.Order\MarketPlace.Service.Order.csproj", "{20CC2D33-0077-4246-AFBF-FF42D3EC9343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EBF630F-3D9E-468F-A5C7-2E6BE4B17480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBF630F-3D9E-468F-A5C7-2E6BE4B17480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBF630F-3D9E-468F-A5C7-2E6BE4B17480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBF630F-3D9E-468F-A5C7-2E6BE4B17480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FE0B97-134A-4504-A242-98322C4BE33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FE0B97-134A-4504-A242-98322C4BE33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FE0B97-134A-4504-A242-98322C4BE33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FE0B97-134A-4504-A242-98322C4BE33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A3C50A-56DB-4815-B3F0-566BBECB8313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A3C50A-56DB-4815-B3F0-566BBECB8313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A3C50A-56DB-4815-B3F0-566BBECB8313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A3C50A-56DB-4815-B3F0-566BBECB8313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2EF748-A6FB-4C39-B82A-E23F62337211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2EF748-A6FB-4C39-B82A-E23F62337211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2EF748-A6FB-4C39-B82A-E23F62337211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2EF748-A6FB-4C39-B82A-E23F62337211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD552BD3-1626-465D-9B58-2430BD7A9500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD552BD3-1626-465D-9B58-2430BD7A9500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD552BD3-1626-465D-9B58-2430BD7A9500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD552BD3-1626-465D-9B58-2430BD7A9500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6049AD80-070C-4FCC-A98F-E30FD6E01007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6049AD80-070C-4FCC-A98F-E30FD6E01007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6049AD80-070C-4FCC-A98F-E30FD6E01007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6049AD80-070C-4FCC-A98F-E30FD6E01007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06310690-54F8-4377-B4ED-1E107A52DCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06310690-54F8-4377-B4ED-1E107A52DCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06310690-54F8-4377-B4ED-1E107A52DCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06310690-54F8-4377-B4ED-1E107A52DCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413023C7-EDDC-489F-9CB8-CB674394BED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413023C7-EDDC-489F-9CB8-CB674394BED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413023C7-EDDC-489F-9CB8-CB674394BED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413023C7-EDDC-489F-9CB8-CB674394BED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CC2D33-0077-4246-AFBF-FF42D3EC9343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CC2D33-0077-4246-AFBF-FF42D3EC9343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CC2D33-0077-4246-AFBF-FF42D3EC9343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CC2D33-0077-4246-AFBF-FF42D3EC9343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7F884D3-1815-488B-BD77-38C0CD1AAB4A} = {42486A02-F940-4ABB-A21E-0067A61C2FAB}
+		{7EBF630F-3D9E-468F-A5C7-2E6BE4B17480} = {EDC70655-7261-4DE0-BC0C-A912C42DE7F5}
+		{B0FE0B97-134A-4504-A242-98322C4BE33B} = {6F302E6E-A582-4B79-A578-91B15A35B44B}
+		{B9A3C50A-56DB-4815-B3F0-566BBECB8313} = {B7F884D3-1815-488B-BD77-38C0CD1AAB4A}
+		{1B2EF748-A6FB-4C39-B82A-E23F62337211} = {AEBBE0D0-3075-4B60-97E8-B841C1132F44}
+		{3F68C32C-CB5B-480A-AFC3-C0974FB3AD75} = {42486A02-F940-4ABB-A21E-0067A61C2FAB}
+		{DD552BD3-1626-465D-9B58-2430BD7A9500} = {3F68C32C-CB5B-480A-AFC3-C0974FB3AD75}
+		{42486A02-F940-4ABB-A21E-0067A61C2FAB} = {C70561C6-A3D4-426F-AE80-2E44238FE0D4}
+		{088495EE-4C65-47EA-BC7F-BDB1FBC469DC} = {CA115F57-F1E3-44F5-929F-7E7D5B2754E9}
+		{6049AD80-070C-4FCC-A98F-E30FD6E01007} = {088495EE-4C65-47EA-BC7F-BDB1FBC469DC}
+		{F2269EC9-BA05-4A62-A44D-71D988283928} = {CA115F57-F1E3-44F5-929F-7E7D5B2754E9}
+		{06310690-54F8-4377-B4ED-1E107A52DCB8} = {F2269EC9-BA05-4A62-A44D-71D988283928}
+		{6BD7E7D7-5A2B-486D-8639-C273C14FFF2D} = {CA115F57-F1E3-44F5-929F-7E7D5B2754E9}
+		{413023C7-EDDC-489F-9CB8-CB674394BED7} = {6BD7E7D7-5A2B-486D-8639-C273C14FFF2D}
+		{40578AF8-D0EA-4967-8E17-38CBC8341C76} = {CA115F57-F1E3-44F5-929F-7E7D5B2754E9}
+		{20CC2D33-0077-4246-AFBF-FF42D3EC9343} = {40578AF8-D0EA-4967-8E17-38CBC8341C76}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {629624CE-E75D-46C0-BC8B-1E42051DA22C}
+	EndGlobalSection
+EndGlobal

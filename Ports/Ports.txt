@@ -1,0 +1,23 @@
+MarketPlaceIntegration.Gateways => 5000
+MarketPlaceIntegration.IdentityServer => 5001
+MarketPlaceIntegration.UserManger => 5002
+MarketPlaceIntegration.Product => 5010
+MarketPlaceIntegration.Category => 5011
+
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5011
+        }
+      ],
+      "UpstreamPathTemplate": "/services/n11/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "UpstreamScheme": "https",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "GatewayAuthenticationScheme",
+        "AllowedScopes": [ "N11FullPermission" ]
+      }
+    },
